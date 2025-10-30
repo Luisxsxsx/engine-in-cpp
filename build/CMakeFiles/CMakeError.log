@@ -1,0 +1,753 @@
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb208/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb208.dir/build.make CMakeFiles/cmTC_fb208.dir/build
+gmake[1]: Entering directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb208.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_fb208.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wdocumentation'
+gmake[1]: *** [CMakeFiles/cmTC_fb208.dir/build.make:78: CMakeFiles/cmTC_fb208.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fb208/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5453/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5453.dir/build.make CMakeFiles/cmTC_d5453.dir/build
+gmake[1]: Entering directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5453.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_d5453.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
+gmake[1]: *** [CMakeFiles/cmTC_d5453.dir/build.make:78: CMakeFiles/cmTC_d5453.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5453/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c451/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c451.dir/build.make CMakeFiles/cmTC_2c451.dir/build
+gmake[1]: Entering directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c451.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_2c451.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
+gmake[1]: *** [CMakeFiles/cmTC_2c451.dir/build.make:78: CMakeFiles/cmTC_2c451.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2c451/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59525/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59525.dir/build.make CMakeFiles/cmTC_59525.dir/build
+gmake[1]: Entering directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59525.dir/src.c.o
+/usr/bin/cc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_59525.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+cc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
+cc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_59525.dir/build.make:78: CMakeFiles/cmTC_59525.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_59525.dir/src.c.o'
+gmake[1]: Leaving directory '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_59525/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8d1e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8d1e.dir/build.make CMakeFiles/cmTC_a8d1e.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8d1e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a8d1e.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_i64toa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_a8d1e.dir/build.make:78: CMakeFiles/cmTC_a8d1e.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a8d1e/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe9d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe9d3.dir/build.make CMakeFiles/cmTC_fe9d3.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe9d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_fe9d3.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘itoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_fe9d3.dir/build.make:78: CMakeFiles/cmTC_fe9d3.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fe9d3/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ce95/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ce95.dir/build.make CMakeFiles/cmTC_2ce95.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ce95.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_2ce95.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_ltoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2ce95.dir/build.make:78: CMakeFiles/cmTC_2ce95.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2ce95/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqr exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6834/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6834.dir/build.make CMakeFiles/cmTC_b6834.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6834.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b6834.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘sqr’ undeclared (first use in this function); did you mean ‘sqrt’?
+   26 |   return ((int*)(&sqr))[argc];
+      |                   ^~~
+      |                   sqrt
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_b6834.dir/build.make:78: CMakeFiles/cmTC_b6834.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b6834/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqr
+  return ((int*)(&sqr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13d87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13d87.dir/build.make CMakeFiles/cmTC_13d87.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13d87.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_13d87.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   26 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_13d87.dir/build.make:78: CMakeFiles/cmTC_13d87.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_13d87/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18380/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18380.dir/build.make CMakeFiles/cmTC_18380.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18380.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_18380.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   26 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_18380.dir/build.make:78: CMakeFiles/cmTC_18380.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_18380/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnstr exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d469/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d469.dir/build.make CMakeFiles/cmTC_5d469.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d469.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_5d469.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
+   26 |   return ((int*)(&strnstr))[argc];
+      |                   ^~~~~~~
+      |                   strstr
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_5d469.dir/build.make:78: CMakeFiles/cmTC_5d469.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5d469/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnstr
+  return ((int*)(&strnstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb319/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb319.dir/build.make CMakeFiles/cmTC_eb319.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb319.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_eb319.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   26 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_eb319.dir/build.make:78: CMakeFiles/cmTC_eb319.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_eb319/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_adadd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_adadd.dir/build.make CMakeFiles/cmTC_adadd.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adadd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_adadd.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   26 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_adadd.dir/build.make:78: CMakeFiles/cmTC_adadd.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_adadd/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e9ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e9ed.dir/build.make CMakeFiles/cmTC_7e9ed.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e9ed.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_7e9ed.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: Arquivo ou diretório inexistente
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7e9ed.dir/build.make:78: CMakeFiles/cmTC_7e9ed.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7e9ed/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18553/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18553.dir/build.make CMakeFiles/cmTC_18553.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18553.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_18553.dir/CheckSymbolExists.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_18553.dir/build.make:78: CMakeFiles/cmTC_18553.dir/CheckSymbolExists.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_18553/fast] Erro 2
+
+
+File /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test ICONV_IN_LIBICONV failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3eaa1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3eaa1.dir/build.make CMakeFiles/cmTC_3eaa1.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eaa1.dir/src.c.o
+/usr/bin/cc -DICONV_IN_LIBICONV  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3eaa1.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3eaa1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eaa1.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_3eaa1.dir/src.c.o -o cmTC_3eaa1  -liconv 
+/usr/bin/ld: não foi possível localizar -liconv: Arquivo ou diretório inexistente
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3eaa1.dir/build.make:99: cmTC_3eaa1] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3eaa1/fast] Erro 2
+
+
+Source file was:
+
+        #include <stddef.h>
+        #include <iconv.h>
+        int main(int argc, char **argv) {
+            return !iconv_open(NULL,NULL);
+        }
+Performing C SOURCE FILE Test HAVE_OPENGL_GLX failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6754/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6754.dir/build.make CMakeFiles/cmTC_b6754.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6754.dir/src.c.o
+/usr/bin/cc -DHAVE_OPENGL_GLX  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b6754.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: GL/glx.h: Arquivo ou diretório inexistente
+    2 |         #include <GL/glx.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b6754.dir/build.make:78: CMakeFiles/cmTC_b6754.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b6754/fast] Erro 2
+
+
+Source file was:
+
+        #include <GL/glx.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGL failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b03fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b03fa.dir/build.make CMakeFiles/cmTC_b03fa.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b03fa.dir/src.c.o
+/usr/bin/cc -DHAVE_OPENGL  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b03fa.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: GL/gl.h: Arquivo ou diretório inexistente
+    2 |         #include <GL/gl.h>
+      |                  ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b03fa.dir/build.make:78: CMakeFiles/cmTC_b03fa.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b03fa/fast] Erro 2
+
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glext.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGLES_V1 failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed7ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed7ae.dir/build.make CMakeFiles/cmTC_ed7ae.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed7ae.dir/src.c.o
+/usr/bin/cc -DHAVE_OPENGLES_V1 -I/home/lipe/enginge-in-cpp/build/_deps/sdl2-src/src/video/khronos -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_ed7ae.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: GLES/gl.h: Arquivo ou diretório inexistente
+    2 |         #include <GLES/gl.h>
+      |                  ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ed7ae.dir/build.make:78: CMakeFiles/cmTC_ed7ae.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ed7ae/fast] Erro 2
+
+
+Source file was:
+
+        #include <GLES/gl.h>
+        #include <GLES/glext.h>
+        int main (int argc, char** argv) { return 0; }
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa07e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa07e.dir/build.make CMakeFiles/cmTC_fa07e.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa07e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_fa07e.dir/CheckIncludeFile.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libudev.h: Arquivo ou diretório inexistente
+    1 | #include <libudev.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_fa07e.dir/build.make:78: CMakeFiles/cmTC_fa07e.dir/CheckIncludeFile.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fa07e/fast] Erro 2
+
+
+
+Performing C SOURCE FILE Test LIBC_HAS_WORKING_LIBUNWIND failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_183ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_183ea.dir/build.make CMakeFiles/cmTC_183ea.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_183ea.dir/src.c.o
+/usr/bin/cc -DLIBC_HAS_WORKING_LIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_183ea.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c:1:16: fatal error: libunwind.h: Arquivo ou diretório inexistente
+    1 |       #include <libunwind.h>
+      |                ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_183ea.dir/build.make:78: CMakeFiles/cmTC_183ea.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_183ea/fast] Erro 2
+
+
+Source file was:
+      #include <libunwind.h>
+      int main(int argc, char *argv[]) {
+        (void)argc; (void)argv;
+        unw_context_t context;
+        unw_cursor_t cursor;
+        unw_word_t pc;
+        char sym[256];
+        unw_word_t offset;
+        unw_getcontext(&context);
+        unw_step(&cursor);
+        unw_get_reg(&cursor, UNW_REG_IP, &pc);
+        unw_get_proc_name(&cursor, sym, sizeof(sym), &offset);
+        return 0;
+      }
+Performing C SOURCE FILE Test LIBUNWIND_HAS_WORKINGLIBUNWIND failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7988a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7988a.dir/build.make CMakeFiles/cmTC_7988a.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7988a.dir/src.c.o
+/usr/bin/cc -DLIBUNWIND_HAS_WORKINGLIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_7988a.dir/src.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/src.c:1:16: fatal error: libunwind.h: Arquivo ou diretório inexistente
+    1 |       #include <libunwind.h>
+      |                ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7988a.dir/build.make:78: CMakeFiles/cmTC_7988a.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7988a/fast] Erro 2
+
+
+Source file was:
+      #include <libunwind.h>
+      int main(int argc, char *argv[]) {
+        (void)argc; (void)argv;
+        unw_context_t context;
+        unw_cursor_t cursor;
+        unw_word_t pc;
+        char sym[256];
+        unw_word_t offset;
+        unw_getcontext(&context);
+        unw_step(&cursor);
+        unw_get_reg(&cursor, UNW_REG_IP, &pc);
+        unw_get_proc_name(&cursor, sym, sizeof(sym), &offset);
+        return 0;
+      }
+Determining if the include file pthread_np.h exists failed with the following output:
+Change Dir: /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_120c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_120c4.dir/build.make CMakeFiles/cmTC_120c4.dir/build
+gmake[1]: Entrando no diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_120c4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_120c4.dir/CheckIncludeFile.c.o -c /home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: pthread_np.h: Arquivo ou diretório inexistente
+    1 | #include <pthread_np.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_120c4.dir/build.make:78: CMakeFiles/cmTC_120c4.dir/CheckIncludeFile.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/lipe/enginge-in-cpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_120c4/fast] Erro 2
+
+
+

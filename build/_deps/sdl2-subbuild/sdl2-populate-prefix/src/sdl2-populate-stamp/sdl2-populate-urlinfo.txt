@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://github.com/libsdl-org/SDL/releases/download/release-3.2.26/SDL3-3.2.26.zip'
-tag='SHA256=739356eef1192fff9d641c320a8f5ef4a10506b8927def4b9ceb764c7e947369'

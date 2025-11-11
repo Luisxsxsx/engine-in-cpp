@@ -1,1 +1,0 @@
-/usr/bin/c++  -O2 -Wall CMakeFiles/My2DEngine.dir/main.cpp.o CMakeFiles/My2DEngine.dir/hello.c.o -o My2DEngine 

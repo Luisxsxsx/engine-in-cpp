@@ -1,1 +1,48 @@
-build
+# Diretórios de build
+build/
+*/build/
+*/CMakeFiles/
+CMakeFiles/
+
+# Arquivos gerados pelo CMake
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Arquivos específicos de plataforma
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+x64/
+x86/
+Win32/
+*.dir/
+*.obj/
+*.pdb
+*.idb
+*.res
+*.ilk
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Diretórios de IDEs
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Arquivos de configuração local
+*.local
+*.user
